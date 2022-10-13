@@ -21,3 +21,9 @@ function LitersToGallons(num){
     return num;
 }
 alert("Литры в галлоны:  "+ LitersToGallons(100));
+
+function CelsiusToFahrenheit(num){
+    num = ((num * 1.8000) + 32);
+    return num;
+}
+alert("Градусы Цельсия в Фаренгейты:  "+ CelsiusToFahrenheit(10));
